@@ -1,0 +1,762 @@
+Not using cached read wrapper
+Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+Stats thread started at 4.067163
+ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
+Mounting plugin XGEController
+Mounting plugin MeshPainting
+Mounting plugin MagicLeapPassableWorld
+Mounting plugin LuminPlatformFeatures
+Mounting plugin MLSDK
+Mounting plugin MagicLeapMedia
+Mounting plugin MagicLeapLightEstimation
+Mounting plugin MagicLeap
+Mounting plugin UdpMessaging
+Mounting plugin TcpMessaging
+Mounting plugin Niagara
+Mounting plugin DatasmithContent
+Mounting plugin VariantManagerContent
+Mounting plugin MediaPlayerEditor
+Mounting plugin MediaCompositing
+Mounting plugin WebMMedia
+Mounting plugin WmfMedia
+Mounting plugin AvfMedia
+Mounting plugin AndroidMedia
+Mounting plugin ImgMedia
+Mounting plugin ScreenshotTools
+Mounting plugin ChaosSolverPlugin
+Mounting plugin ChaosClothEditor
+Mounting plugin GeometryProcessing
+Mounting plugin ProxyLODPlugin
+Mounting plugin PlanarCut
+Mounting plugin GeometryCache
+Mounting plugin AlembicImporter
+Mounting plugin ChaosNiagara
+Mounting plugin ChaosEditor
+Mounting plugin GeometryCollectionPlugin
+Mounting plugin MotoSynth
+Mounting plugin ChaosCloth
+Mounting plugin AutomationUtils
+Mounting plugin PlatformCrypto
+Mounting plugin BackChannel
+Mounting plugin SkeletalReduction
+Mounting plugin CharacterAI
+Mounting plugin OnlineSubsystemUtils
+Mounting plugin OnlineSubsystemNull
+Mounting plugin OnlineSubsystem
+Mounting plugin CurveEditorTools
+Mounting plugin MaterialAnalyzer
+Mounting plugin FacialAnimation
+Mounting plugin PluginBrowser
+Mounting plugin CryptoKeys
+Mounting plugin SpeedTreeImporter
+Mounting plugin MobileLauncherProfileWizard
+Mounting plugin AssetManagerEditor
+Mounting plugin DataValidation
+Mounting plugin GeometryMode
+Mounting plugin GameplayTagsEditor
+Mounting plugin MacGraphicsSwitching
+Mounting plugin Paper2D
+Mounting plugin EnvironmentQueryEditor
+Mounting plugin AISupport
+Mounting plugin CameraShakePreviewer
+Mounting plugin LightPropagationVolume
+Mounting plugin CustomMeshComponent
+Mounting plugin AppleMoviePlayer
+Mounting plugin ProceduralMeshComponent
+Mounting plugin AssetTags
+Mounting plugin PostSplashScreen
+Mounting plugin ChunkDownloader
+Mounting plugin ExampleDeviceProfileSelector
+Mounting plugin WebMMoviePlayer
+Mounting plugin AudioCapture
+Mounting plugin IOSDeviceProfileSelector
+Mounting plugin LinuxDeviceProfileSelector
+Mounting plugin GooglePAD
+Mounting plugin SoundFields
+Mounting plugin WindowsMoviePlayer
+Mounting plugin SignificanceManager
+Mounting plugin AppleImageUtils
+Mounting plugin CableComponent
+Mounting plugin AndroidMoviePlayer
+Mounting plugin PhysXVehicles
+Mounting plugin AndroidPermission
+Mounting plugin AndroidDeviceProfileSelector
+Mounting plugin MobilePatchingUtils
+Mounting plugin Synthesis
+Mounting plugin RuntimePhysXCooking
+Mounting plugin GoogleCloudMessaging
+Mounting plugin EditableMesh
+Mounting plugin PropertyAccessEditor
+Mounting plugin AudioSynesthesia
+Mounting plugin LocationServicesBPLibrary
+Mounting plugin ActorLayerUtilities
+Mounting plugin ArchVisCharacter
+Mounting plugin LauncherChunkInstaller
+Mounting plugin PerforceSourceControl
+Mounting plugin PluginUtils
+Mounting plugin NullSourceCodeAccess
+Mounting plugin PropertyAccessNode
+Mounting plugin KDevelopSourceCodeAccess
+Mounting plugin CLionSourceCodeAccess
+Mounting plugin GitSourceControl
+Mounting plugin AnimationSharing
+Mounting plugin RiderSourceCodeAccess
+Mounting plugin SubversionSourceControl
+Mounting plugin CodeLiteSourceCodeAccess
+Mounting plugin VisualStudioSourceCodeAccess
+Mounting plugin XCodeSourceCodeAccess
+Mounting plugin UObjectPlugin
+Mounting plugin PlasticSourceControl
+Mounting plugin VisualStudioCodeSourceCodeAccess
+Mounting plugin MatineeToLevelSequence
+Mounting plugin TemplateSequence
+Mounting plugin ActorSequence
+Mounting plugin LevelSequenceEditor
+Mounting plugin OnlineSubsystemIOS
+Mounting plugin OnlineSubsystemGooglePlay
+Mounting plugin ContentBrowserAssetDataSource
+Mounting plugin ContentBrowserClassDataSource
+Mounting plugin OculusVR
+Mounting plugin SteamVR
+Using libcurl 7.65.3-DEV
+ - built for x86_64-unknown-linux-gnu
+ - supports SSL with OpenSSL/1.1.1c
+ - supports HTTP deflate (compression) using libz 1.2.8
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_TLSAUTH_SRP
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+OSS: Creating online subsystem instance for: NULL
+OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+Build: ++UE4+Release-4.26-CL-0
+Engine Version: 4.26.2-0+++UE4+Release-4.26
+Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+Net CL: 0
+OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz, GPU: GenericGPUBrand
+Compiled (64-bit): Jul 29 2022 02:15:05
+Compiled with Clang: 10.0.1 
+Build Configuration: Development
+Branch Name: ++UE4+Release-4.26
+Command Line: 
+Base Directory: /home/paimei/unreal/UnrealEngine-4.26/Engine/Binaries/Linux/
+Allocator: binned2
+Installed Engine Build: 0
+Number of dev versions registered: 29
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+  FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+  Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+  Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+  Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+  Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+  Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+  Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+  Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Object subsystem initialized
+Setting CVar [[con.DebugEarlyDefault:1]]
+Setting CVar [[r.setres:1280x720]]
+Setting CVar [[r.VSync:0]]
+Setting CVar [[r.RHICmdBypass:0]]
+Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Setting CVar [[r.GPUCrashDebugging:0]]
+Setting CVar [[r.Mobile.DisableVertexFog:1]]
+Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+Setting CVar [[r.MobileMSAA:1]]
+Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+Setting CVar [[r.Mobile.VirtualTextures:0]]
+Setting CVar [[r.DiscardUnusedQuality:0]]
+Setting CVar [[r.AllowOcclusionQueries:1]]
+Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+Setting CVar [[r.TextureStreaming:1]]
+Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+Setting CVar [[r.VirtualTextures:0]]
+Setting CVar [[r.VirtualTexturedLightmaps:0]]
+Setting CVar [[r.VT.TileSize:128]]
+Setting CVar [[r.VT.TileBorderSize:4]]
+Setting CVar [[r.vt.FeedbackFactor:16]]
+Setting CVar [[r.VT.EnableCompressZlib:1]]
+Setting CVar [[r.VT.EnableCompressCrunch:0]]
+Setting CVar [[r.ClearCoatNormal:0]]
+Setting CVar [[r.ReflectionCaptureResolution:128]]
+Setting CVar [[r.Mobile.ReflectionCaptureCompression:0]]
+Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+Setting CVar [[r.ForwardShading:0]]
+Setting CVar [[r.VertexFoggingForOpaque:1]]
+Setting CVar [[r.AllowStaticLighting:1]]
+Setting CVar [[r.NormalMapsForStaticLighting:0]]
+Setting CVar [[r.GenerateMeshDistanceFields:0]]
+Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+Setting CVar [[r.GenerateLandscapeGIData:0]]
+Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+Setting CVar [[r.SeparateTranslucency:1]]
+Setting CVar [[r.TranslucentSortPolicy:0]]
+Setting CVar [[r.CustomDepth:1]]
+Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+Setting CVar [[r.DefaultFeature.Bloom:1]]
+Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+Setting CVar [[r.UsePreExposure:1]]
+Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+Setting CVar [[r.DefaultFeature.LensFlare:0]]
+Setting CVar [[r.TemporalAA.Upsampling:0]]
+Setting CVar [[r.SSGI.Enable:0]]
+Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+Setting CVar [[r.DefaultFeature.LightUnits:1]]
+Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+Setting CVar [[r.StencilForLODDither:0]]
+Setting CVar [[r.EarlyZPass:3]]
+Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+Setting CVar [[r.DBuffer:1]]
+Setting CVar [[r.ClearSceneMethod:1]]
+Setting CVar [[r.BasePassOutputsVelocity:0]]
+Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+Setting CVar [[r.SelectiveBasePassOutputs:0]]
+Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+Setting CVar [[r.AllowGlobalClipPlane:0]]
+Setting CVar [[r.GBufferFormat:1]]
+Setting CVar [[r.MorphTarget.Mode:1]]
+Setting CVar [[vr.InstancedStereo:0]]
+Setting CVar [[r.MobileHDR:1]]
+Setting CVar [[vr.MobileMultiView:0]]
+Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+Setting CVar [[vr.RoundRobinOcclusion:0]]
+Setting CVar [[vr.ODSCapture:0]]
+Setting CVar [[r.MeshStreaming:0]]
+Setting CVar [[r.WireframeCullThreshold:5.000000]]
+Setting CVar [[r.RayTracing:0]]
+Setting CVar [[r.RayTracing.UseTextureLod:0]]
+Setting CVar [[r.SupportStationarySkylight:1]]
+Setting CVar [[r.SupportLowQualityLightmaps:1]]
+Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+Setting CVar [[r.SupportAtmosphericFog:1]]
+Setting CVar [[r.SupportSkyAtmosphere:1]]
+Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+Setting CVar [[r.SkinCache.CompileShaders:0]]
+Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+Setting CVar [[r.MobileNumDynamicPointLights:4]]
+Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+Setting CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+Setting CVar [[r.SupportReversedIndexBuffers:1]]
+Setting CVar [[r.LightPropagationVolume:0]]
+Setting CVar [[r.Mobile.AmbientOcclusion:0]]
+Setting CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+Setting CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+Setting CVar [[r.Mobile.PlanarReflectionMode:0]]
+Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+Setting CVar [[gc.FlushStreamingOnGC:0]]
+Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+Setting CVar [[gc.AllowParallelGC:1]]
+Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+Setting CVar [[gc.CreateGCClusters:1]]
+Setting CVar [[gc.MinGCClusterSize:5]]
+Setting CVar [[gc.ActorClusteringEnabled:0]]
+Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Initializing SDL.
+Initialized SDL 2.0.12 revision: 13609 (hg-13609:34cc7d3b69d3) (compiled against 2.0.12)
+Using SDL video driver 'x11'
+Display metrics:
+  PrimaryDisplayWidth: 1366
+  PrimaryDisplayHeight: 768
+  PrimaryDisplayWorkAreaRect:
+    Left=72, Top=27, Right=1366, Bottom=768
+  VirtualDisplayRect:
+    Left=72, Top=27, Right=1366, Bottom=768
+  TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  Number of monitors: 1
+    Monitor 0
+      Name: 0
+      ID: display0
+      NativeWidth: 1366
+      NativeHeight: 768
+      bIsPrimary: true
+Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Applying CVar settings from Section [FoliageQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Selected Device Profile: [Linux]
+Applying CVar settings loaded from the selected device profile: [Linux]
+Platform has ~ 4 GB [6114435072 / 4294967296 / 6], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile []
+Applying CVar settings from Section [ViewDistanceQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:2]]
+Setting CVar [[r.ViewDistanceScale:0.4]]
+Applying CVar settings from Section [AntiAliasingQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:0]]
+Applying CVar settings from Section [ShadowQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:0]]
+Setting CVar [[r.ShadowQuality:0]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+Setting CVar [[r.Shadow.MaxResolution:512]]
+Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+Setting CVar [[r.Shadow.DistanceScale:0.6]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+Setting CVar [[r.DistanceFieldShadowing:0]]
+Setting CVar [[r.DistanceFieldAO:0]]
+Setting CVar [[r.VolumetricFog:0]]
+Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+Setting CVar [[r.CapsuleShadows:0]]
+Applying CVar settings from Section [PostProcessQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:0]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+Setting CVar [[r.AmbientOcclusionLevels:0]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+Setting CVar [[r.DepthOfFieldQuality:0]]
+Setting CVar [[r.RenderTargetPoolMin:300]]
+Setting CVar [[r.LensFlareQuality:0]]
+Setting CVar [[r.SceneColorFringeQuality:0]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:4]]
+Setting CVar [[r.FastBlurThreshold:0]]
+Setting CVar [[r.Upscale.Quality:1]]
+Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+Setting CVar [[r.LightShaftQuality:0]]
+Setting CVar [[r.Filter.SizeScale:0.6]]
+Setting CVar [[r.Tonemapper.Quality:0]]
+Applying CVar settings from Section [TextureQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:16]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+Setting CVar [[r.Streaming.Boost:0.3]]
+Setting CVar [[r.MaxAnisotropy:0]]
+Setting CVar [[r.VT.MaxAnisotropy:4]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+Setting CVar [[r.Streaming.PoolSize:400]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+Setting CVar [[r.RefractionQuality:0]]
+Setting CVar [[r.SSR.Quality:0]]
+Setting CVar [[r.SSR.HalfResSceneColor:1]]
+Setting CVar [[r.SceneColorFormat:3]]
+Setting CVar [[r.DetailMode:0]]
+Setting CVar [[r.TranslucencyVolumeBlur:0]]
+Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+Setting CVar [[r.AnisotropicMaterials:0]]
+Setting CVar [[r.SSS.Scale:0]]
+Setting CVar [[r.SSS.SampleSet:0]]
+Setting CVar [[r.SSS.Quality:0]]
+Setting CVar [[r.SSS.HalfRes:1]]
+Setting CVar [[r.SSGI.Quality:0]]
+Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+Setting CVar [[r.ParticleLightQuality:0]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+Applying CVar settings from Section [FoliageQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[foliage.DensityScale:0]]
+Setting CVar [[grass.DensityScale:0]]
+Applying CVar settings from Section [ShadingQuality@0] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+Applying CVar settings from Section [ConsoleVariables] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Engine.ini]
+Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+Applying CVar settings from Section [ConsoleVariables] File [/home/paimei/test_for_fnastic/Subject2/Saved/Config/Linux/Editor.ini]
+Unix hardware info:
+ - we are not the first instance of this executable
+ - this process' id (pid) is 8034, parent process' id (ppid) is 1428
+ - we are not running under debugger
+ - machine network name is 'paimei-Lenovo-Z50-70'
+ - user name is 'paimei' (paimei)
+ - we're logged in locally
+ - we're running with rendering
+ - CPU: GenuineIntel 'Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz' (signature: 0x40651)
+ - Number of physical cores available for the process: 2
+ - Number of logical cores available for the process: 4
+ - Cache line size: 64
+ - Memory allocator used: binned2
+ - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+ - This is an internal build.
+Benchmarking clocks:
+ - CLOCK_MONOTONIC (id=1) can sustain 42167224 (42167K, 42M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_RAW (id=4) can sustain 41855931 (41856K, 42M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_COARSE (id=6) can sustain 103511990 (103512K, 104M) calls per second with 99.999749% zero deltas.
+Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+Unix-specific commandline switches:
+ -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+ -jemalloc - use jemalloc for all memory allocation
+ -binnedmalloc - use binned malloc  for all memory allocation
+ -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+ -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+ -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+ -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+ -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+ -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+ -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+ -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+ - Physical RAM available (not considering process quota): 6 GB (5831 MB, 5971128 KB, 6114435072 bytes)
+ - VirtualMemoryAllocator pools will grow at scale 1.4
+ - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+Physics initialised using underlying interface: PhysX
+Using OS detected language (ru-RU).
+Using OS detected locale (ru-RU).
+No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+New Slate User Created.  User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Using SDL_WINDOW_VULKAN
+- Found 4 instance layers
+* VK_LAYER_LUNARG_standard_validation
+* VK_LAYER_MESA_device_select
+* VK_LAYER_MESA_overlay
+* VK_LAYER_NV_optimus
+- Found 18 instance extensions
+* VK_EXT_acquire_xlib_display
+* VK_EXT_debug_report
+* VK_EXT_debug_utils
+* VK_EXT_direct_mode_display
+* VK_EXT_display_surface_counter
+* VK_KHR_device_group_creation
+* VK_KHR_display
+* VK_KHR_external_fence_capabilities
+* VK_KHR_external_memory_capabilities
+* VK_KHR_external_semaphore_capabilities
+* VK_KHR_get_display_properties2
+* VK_KHR_get_physical_device_properties2
+* VK_KHR_get_surface_capabilities2
+* VK_KHR_surface
+* VK_KHR_surface_protected_capabilities
+* VK_KHR_wayland_surface
+* VK_KHR_xcb_surface
+* VK_KHR_xlib_surface
+Failed to initialize OpenVR with code 110
+Not using instance layers
+Using instance extensions
+* VK_KHR_surface
+* VK_KHR_xlib_surface
+* VK_KHR_external_memory_capabilities
+* VK_KHR_get_physical_device_properties2
+Found 3 device(s)
+Device 0: Intel(R) HD Graphics 4400 (HSW GT2)
+- API 1.2.182(0x4020b6) Driver 0x5402006 VendorId 0x8086
+- DeviceID 0xa16 Type Integrated GPU
+- Max Descriptor Sets Bound 8 Timestamps 1
+- Device Properties driverName: Intel open-source Mesa driver
+- Device Properties driverInfo: Mesa 21.2.6
+-    Found device layer VK_LAYER_MESA_device_select
+-    Found device extension VK_EXT_4444_formats
+-    Found device extension VK_EXT_calibrated_timestamps
+-    Found device extension VK_EXT_color_write_enable
+-    Found device extension VK_EXT_conditional_rendering
+-    Found device extension VK_EXT_depth_clip_enable
+-    Found device extension VK_EXT_display_control
+-    Found device extension VK_EXT_extended_dynamic_state
+-    Found device extension VK_EXT_extended_dynamic_state2
+-    Found device extension VK_EXT_external_memory_dma_buf
+-    Found device extension VK_EXT_external_memory_host
+-    Found device extension VK_EXT_host_query_reset
+-    Found device extension VK_EXT_image_drm_format_modifier
+-    Found device extension VK_EXT_image_robustness
+-    Found device extension VK_EXT_index_type_uint8
+-    Found device extension VK_EXT_inline_uniform_block
+-    Found device extension VK_EXT_line_rasterization
+-    Found device extension VK_EXT_memory_budget
+-    Found device extension VK_EXT_multi_draw
+-    Found device extension VK_EXT_pci_bus_info
+-    Found device extension VK_EXT_physical_device_drm
+-    Found device extension VK_EXT_pipeline_creation_cache_control
+-    Found device extension VK_EXT_pipeline_creation_feedback
+-    Found device extension VK_EXT_private_data
+-    Found device extension VK_EXT_provoking_vertex
+-    Found device extension VK_EXT_queue_family_foreign
+-    Found device extension VK_EXT_robustness2
+-    Found device extension VK_EXT_sample_locations
+-    Found device extension VK_EXT_scalar_block_layout
+-    Found device extension VK_EXT_separate_stencil_usage
+-    Found device extension VK_EXT_shader_atomic_float
+-    Found device extension VK_EXT_shader_demote_to_helper_invocation
+-    Found device extension VK_EXT_shader_subgroup_ballot
+-    Found device extension VK_EXT_shader_subgroup_vote
+-    Found device extension VK_EXT_shader_viewport_index_layer
+-    Found device extension VK_EXT_subgroup_size_control
+-    Found device extension VK_EXT_texel_buffer_alignment
+-    Found device extension VK_EXT_transform_feedback
+-    Found device extension VK_EXT_vertex_attribute_divisor
+-    Found device extension VK_EXT_ycbcr_image_arrays
+-    Found device extension VK_GOOGLE_decorate_string
+-    Found device extension VK_GOOGLE_hlsl_functionality1
+-    Found device extension VK_GOOGLE_user_type
+-    Found device extension VK_KHR_bind_memory2
+-    Found device extension VK_KHR_copy_commands2
+-    Found device extension VK_KHR_create_renderpass2
+-    Found device extension VK_KHR_dedicated_allocation
+-    Found device extension VK_KHR_deferred_host_operations
+-    Found device extension VK_KHR_depth_stencil_resolve
+-    Found device extension VK_KHR_descriptor_update_template
+-    Found device extension VK_KHR_device_group
+-    Found device extension VK_KHR_draw_indirect_count
+-    Found device extension VK_KHR_driver_properties
+-    Found device extension VK_KHR_external_fence
+-    Found device extension VK_KHR_external_fence_fd
+-    Found device extension VK_KHR_external_memory
+-    Found device extension VK_KHR_external_memory_fd
+-    Found device extension VK_KHR_external_semaphore
+-    Found device extension VK_KHR_external_semaphore_fd
+-    Found device extension VK_KHR_get_memory_requirements2
+-    Found device extension VK_KHR_image_format_list
+-    Found device extension VK_KHR_imageless_framebuffer
+-    Found device extension VK_KHR_incremental_present
+-    Found device extension VK_KHR_maintenance1
+-    Found device extension VK_KHR_maintenance2
+-    Found device extension VK_KHR_maintenance3
+-    Found device extension VK_KHR_multiview
+-    Found device extension VK_KHR_pipeline_executable_properties
+-    Found device extension VK_KHR_push_descriptor
+-    Found device extension VK_KHR_relaxed_block_layout
+-    Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+-    Found device extension VK_KHR_sampler_ycbcr_conversion
+-    Found device extension VK_KHR_separate_depth_stencil_layouts
+-    Found device extension VK_KHR_shader_clock
+-    Found device extension VK_KHR_shader_draw_parameters
+-    Found device extension VK_KHR_shader_non_semantic_info
+-    Found device extension VK_KHR_shader_subgroup_uniform_control_flow
+-    Found device extension VK_KHR_shader_terminate_invocation
+-    Found device extension VK_KHR_spirv_1_4
+-    Found device extension VK_KHR_storage_buffer_storage_class
+-    Found device extension VK_KHR_swapchain
+-    Found device extension VK_KHR_swapchain_mutable_format
+-    Found device extension VK_KHR_timeline_semaphore
+-    Found device extension VK_KHR_uniform_buffer_standard_layout
+-    Found device extension VK_KHR_variable_pointers
+-    Found device extension VK_KHR_vulkan_memory_model
+-    Found device extension VK_KHR_workgroup_memory_explicit_layout
+-    Found device extension VK_KHR_zero_initialize_workgroup_memory
+-    Found device extension VK_NV_compute_shader_derivatives
+0x00007ff9d6facf22 Dladdr: 0.051739ms Open: 45.590093ms Search: 26.118421ms
+0x00007ff9d7038f85 Dladdr: 0.041859ms Open: 0.025886ms Search: 3.110266ms
+0x00007ff9d70352b2 Dladdr: 0.028736ms Open: 0.024801ms Search: 0.367319ms
+0x00007ff9d7034ec7 Dladdr: 0.024744ms Open: 0.021378ms Search: 0.127509ms
+0x00007ffa2a0d548c Dladdr: 0.012150ms Open: 12.050101ms Search: 6.763052ms
+0x000000000027f342 Dladdr: 0.025706ms Open: 10.990529ms Search: 2.174801ms
+0x000000000027626b Dladdr: 0.019231ms Open: 0.024590ms Search: 0.155848ms
+0x00007ffa26ddf055 Dladdr: 0.003104ms Open: 10.546822ms Search: 0.071053ms
+0x00007ffa26c01082 Dladdr: 0.030352ms Open: 0.034331ms Search: 0.001093ms
+0x000000000025f4d8 Dladdr: 0.017502ms Open: 0.016573ms Search: 0.452153ms
+FPlatformStackWalk::StackWalkAndDump -  0.271 s
+=== Handled ensure: ===
+
+Ensure condition failed: VendorId != EGpuVendorId::Unknown [File:/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp] [Line: 182]
+
+Stack: 
+[Callstack] 0x00007ff9d6facf23 libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*) [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:182]
+[Callstack] 0x00007ff9d7038f86 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::SelectAndInitDevice() [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:551]
+[Callstack] 0x00007ff9d70352b3 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::InitInstance() [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:694]
+[Callstack] 0x00007ff9d7034ec8 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::Init() [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:241]
+[Callstack] 0x00007ffa2a0d548d libUE4Editor-RHI.so!RHIInit(bool) [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:228]
+[Callstack] 0x000000000027f343 UE4Editor!FEngineLoop::PreInitPreStartupScreen(char16_t const*) [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2555]
+[Callstack] 0x000000000027626c UE4Editor!GuardedMain(char16_t const*) [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/Launch/Private/Launch.cpp:127]
+[Callstack] 0x00007ffa26ddf056 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/paimei/unreal/UnrealEngine-4.26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+[Callstack] 0x00007ffa26c01083 libc.so.6!__libc_start_main(+0xf2)
+[Callstack] 0x000000000025f4d9 UE4Editor!_start()
+
+               SubmitErrorReport -  0.000 s
